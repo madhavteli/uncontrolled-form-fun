@@ -1,0 +1,11 @@
+.btn {
+	background: lightseagreen;
+	border: none;
+	color: white;
+	font-size: 1rem;
+	padding: 8px 16px;
+}
+
+.formFields {
+	margin-bottom: 16px;
+}
