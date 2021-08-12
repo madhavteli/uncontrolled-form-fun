@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import classes from './UnControlledForm.module.css';
+import classes from './UncontrolledForm.module.css';
 
-const UnControlledForm = () => {
+const UncontrolledForm = () => {
 	const firstName =  useRef();
 	const lastName =  useRef();
 	const email =  useRef();
@@ -43,4 +43,4 @@ const UnControlledForm = () => {
 	);
 };
 
-export default UnControlledForm;
+export default UncontrolledForm;
