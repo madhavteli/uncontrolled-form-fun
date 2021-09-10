@@ -9,13 +9,12 @@ const UncontrolledForm = () => {
 
 	const formSaveHandler = (event) => {
 		event.preventDefault();
-		// alert(`
-		// 	firstName: ${firstName.current.value}
-		// 	lastName: ${lastName.current.value}
-		// 	email: ${email.current.value}
-		// 	phone: ${phone.current.value}
-		// `);
-		alert('firstName: '+firstName.current.value+'\nlastName: '+lastName.current.value+'\nemail: '+email.current.value+'\nphone: '+phone.current.value);
+		alert(`
+         firstName: ${firstName.current.value}
+         lastName: ${lastName.current.value}
+         email: ${email.current.value}
+         phone: ${phone.current.value}
+      `);
 	};
 
 	return(

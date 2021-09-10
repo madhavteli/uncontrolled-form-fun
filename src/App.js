@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import UncontrolledForm from "./Components/UncontrolledForm";
 
 function App() {
 
 	return (
-		<div>
+		<Fragment>
 			<UncontrolledForm/>
-		</div>
+		</Fragment>
 	);
 }
 
